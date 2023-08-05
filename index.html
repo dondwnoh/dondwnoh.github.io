@@ -1,0 +1,61 @@
+---
+layout: default
+---
+
+<style>
+li:not(:first-child) {
+ margin-top: 5px
+}
+table
+{
+ border-collapse: separate;
+ border-spacing: 2.5px 2.5px;
+ margin: 5px;
+}
+</style>
+
+<h4>About</h4>
+
+<ul>
+<li>
+<b>Experience:</b>
+<table>
+  <tr>
+    <td style="width:125px">2017 &ndash; 2023</td>
+    <td>PhD in Economics, Princeton University</td>
+  </tr>
+  <tr>
+    <td>2023 &ndash; </td>
+    <td>Assistant Professor of Finance, HKUST Business School</td>
+  </tr>
+</table>
+</li>
+<li><b>Research areas</b>: asset pricing, behavioral finance</li>
+<li><b>CV</b>: <a href="/documents/cv_donnoh_2024.pdf">PDF</a> version</li>
+</ul>
+
+<h4>Contact</h4>
+
+<ul>
+<li><b>Office</b>: LSK 5056</li>
+<li><b>Email</b>: noh[at]ust[dot]hk</li>
+</ul>
+
+{% comment %}
+
+<div class="posts">
+  {% for post in site.posts %}
+    <article class="post">
+
+      <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
+
+      <div class="entry">
+        {{ post.excerpt }}
+      </div>
+
+      <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
+    </article>
+  {% endfor %}
+</div>
+
+{% endcomment %}
