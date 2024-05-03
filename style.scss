@@ -24,7 +24,7 @@ html {
 body {
   background: $white;
   font-family: "Crimson Pro", serif;
-  font-size: 16px;
+  font-size: 18px;
   line-height: 1.4;
   color: #000000;
 }
@@ -57,26 +57,26 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
-  font-size: 32px;
+  font-size: 34px;
   a {
     color: inherit;
   }
 }
 
 h2 {
-  font-size: 26px;
+  font-size: 28px;
 }
 
 h3 {
-  font-size: 22px;
+  font-size: 24px;
 }
 
 h4 {
-  font-size: 18px;
+  font-size: 20px;
 }
 
 p {
-  margin: 10px 0;
+  margin: 12px 0;
 }
 
 a {
@@ -89,7 +89,7 @@ a {
 }
 
 ul, ol {
-  margin: 15px 0;
+  margin: 16px 0;
   padding-left: 30px;
 }
 
@@ -207,14 +207,14 @@ img {
   cursor: pointer;
   font-family: "Crimson Pro", serif;
   font-weight: 700;
-  font-size: 26px;
+  font-size: 28px;
   letter-spacing: 0px;
 }
 
 .site-description {
   margin: 0;
   color: $gray;
-  font-size: 16px;
+  font-size: 18px;
   font-weight: 300;
 
   @include mobile {
@@ -224,9 +224,9 @@ img {
 
 nav {
   float: right;
-  margin-top: 23px; // @TODO: Vertically middle align
+  margin-top: 24px;
   font-family: "Crimson Pro", serif;
-  font-size: 16px;
+  font-size: 18px;
 
   @include mobile {
     float: none;
